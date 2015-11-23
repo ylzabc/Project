@@ -11,7 +11,7 @@ import com.qf.fragment.brand_fragment;
 import com.qf.fragment.headpage_fragmnet;
 
 public class MainActivity extends FragmentActivity {
-    /////
+    ///////////
     private FragmentManager manager;
     private RadioGroup group;
     private Fragment first=null;
