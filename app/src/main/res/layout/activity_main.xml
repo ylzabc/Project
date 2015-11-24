@@ -15,68 +15,53 @@
     </FrameLayout>
 
     <RadioGroup
-        android:id="@+id/radiogroup"
+        android:id="@+id/rg_id"
         android:layout_width="match_parent"
-
-        android:layout_height="80dp"
-        android:orientation="horizontal">
-
-       <RadioButton
-            android:id="@+id/home"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioButton
+            android:id="@+id/rb_id1"
             android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:button="@null"
-            android:layout_gravity="center"
             android:checked="true"
-            android:drawableTop="@drawable/color"/>
-
-        <RadioButton
-            android:id="@+id/discover"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
             android:button="@null"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/color2"/>
-
+            android:background="@drawable/tab_headpage"/>
         <RadioButton
-            android:id="@+id/message1"
+            android:id="@+id/rb_id2"
             android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:gravity="center"
             android:button="@null"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/color3"/>
-
+            android:background="@drawable/tab_brand"/>
         <RadioButton
-            android:id="@+id/message"
+            android:id="@+id/rb_id3"
             android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
             android:button="@null"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/color2"/>
-
+            android:gravity="center"
+           android:background="@drawable/tab_theme"
+          />
         <RadioButton
-            android:id="@+id/mine"
+            android:id="@+id/rb_id4"
             android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:gravity="center"
             android:button="@null"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/color4"/>
-
+            android:background="@drawable/tab_cart"/>
         <RadioButton
-            android:id="@+id/mine1"
+            android:id="@+id/rb_id5"
             android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:gravity="center"
             android:button="@null"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/color5"/>
+            android:background="@drawable/tab_mine"/>
 
     </RadioGroup>
-
 </LinearLayout>
-
