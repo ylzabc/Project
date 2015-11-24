@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-   <Button
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:text="..............."/>
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c5dfcece"
+        android:gravity="center"
+        android:text="品牌"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_editext"
+        android:drawableLeft="@drawable/yuike_maintab_navbtn_search"
+        android:textColorHint="#927c7c77"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview1">
+    </ListView>
+
+</RelativeLayout>
