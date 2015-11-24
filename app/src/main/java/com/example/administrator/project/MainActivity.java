@@ -58,6 +58,9 @@ public class MainActivity extends FragmentActivity {
                         break;
                     case R.id.rb_id3:
                         Fragment theme_fragment=manager.findFragmentByTag("theme");
+                        if (theme_fragment==null){
+
+                        }
                         break;
                 }
             }
