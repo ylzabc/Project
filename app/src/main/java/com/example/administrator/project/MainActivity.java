@@ -56,6 +56,8 @@ public class MainActivity extends FragmentActivity {
                         }
                         lastFragment =brand_fragment ;
                         break;
+                    case R.id.rb_id3:
+                        break;
                 }
             }
         });
